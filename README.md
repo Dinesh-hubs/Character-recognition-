@@ -24,15 +24,6 @@ To recognize characters (A–Z, a–z, 0–9) from binary pixel representations 
 
 Each character is represented as a fixed-size binary vector derived from a pixel grid.
 
-🏗️ Project Architecture
-Character-Recognition-FNN/
-│
-├── main.py                # Entry point (training & testing)
-├── models.py              # Helper functions & model utilities
-├── dataset.csv            # Character dataset (binary pixel values)
-├── README.md              # Project documentation
-└── outputs/               # Graphs, logs, or generated files
-
 📚 Libraries Used
 Library	Purpose
 numpy	Matrix operations & neural network math
@@ -105,7 +96,7 @@ Example:
 
 🚀 How to Run the Project
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/Character-Recognition-FNN.git
+git clone https://github.com/Dinesh-hubs/Character-Recognition-FNN.git
 cd Character-Recognition-FNN
 
 2️⃣ Run Training
